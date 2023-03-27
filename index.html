@@ -1,0 +1,139 @@
+<!-- DEVELOPER: Nurjahan Jhorna, IS117-004, Spring 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/home-style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html"><img src="images/Logo.png" class="rounded-circle" alt="Logo" height="70" width="70"> Little Things About Me </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My Peace
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="anime.html">Anime</a>
+                                <a class="dropdown-item" href="games.html">Games</a>
+                                <a class="dropdown-item" href="music and Art.html">Music & Art</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+    <br>
+
+
+    <div id="content">
+
+        <div id="textblock">
+            <h2>A Little About Me</h2>
+
+            <p>
+                Royal Aura club and restaurant is located in Mayfair just a walk away from the Ritz.
+                We will guarantee you will have a ball of a time with our brilliant DJ playing the tunes while your sipping cocktails away and dancing the night away.
+            <p>
+                Aura is a glamorous and sophisticated club that has a beautiful decor to get the mood. If you fancy doing VIP in style drop us a e-mail, we will be glad to help. Not to mention our fabulous food dishes we serve are to die for.
+                Please make sure you e-mail us 24 hours before the day you want to come and party or dine.
+            </p>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/one-piece.webp" alt="Anime" class="d-block w-100px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/zelda-breath-of-the-wild.jpg" alt="Games" class="d-block w-60px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/sky-childen-of-light.webp" alt="Music & Art" class="d-block w-100 px">
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <br>
+            <div class="column">
+                <div class="card" style="width: 20rem;">
+                    <img src="images/Logo.png" >
+                    <div class="container" class="card-img-top" alt="First Pic">
+                        <div class="card-body">
+                            <h5 class="card-title">Anime</h5>
+                        <a href=""
+                           target="_blank" class="btn btn-primary">Go</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            
+        </div>
+
+        <!-- Cards -->
+
+
+
+
+
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Nurjahan Jhorna, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

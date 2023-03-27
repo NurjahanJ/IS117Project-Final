@@ -1,0 +1,197 @@
+/*DEVELOPER: Nurjahan Jhorna IS117-004, Spring 2023 */
+
+
+body {
+    background-image: url(https://images.pexels.com/photos/5507510/pexels-photo-5507510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+
+/*********************/
+/* Navbar */
+/*********************/
+.nav-link {
+    color: white !important;
+    font-family: cursive;
+    font-size: large;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: auto;
+    margin-right: 7em;
+}
+.navbar-brand{
+    font-family: cursive;
+}
+
+
+
+/*********************/
+/* Title and Cards */
+/*********************/
+#maintitle {
+    font-size: 50px;
+    font-family: cursive;
+    color: teal;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+/*********************/
+/* Contact Me Page */
+/*********************/
+#contact-h2 {
+    font-family: cursive;
+    color: #bacbe6;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    margin-left: 20px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px dot-dash floralwhite;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: #bacbe6;
+}
+
+input[type=submit] {
+    background-color: #bacbe6;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: teal;
+    color: black;
+    box-sizing: border-box;
+}
+.column {
+    display: inline-block;
+    width: 20%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column2 {
+    display: inline-block;
+    width: 50%;
+    margin-top: -27px;
+    margin-bottom: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 2px dot-dash #bacbe6;
+
+}
+/* Social Media Icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/*********************/
+/* Footer */
+/*********************/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
