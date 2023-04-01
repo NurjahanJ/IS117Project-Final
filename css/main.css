@@ -33,10 +33,10 @@ body {
 #maintitle {
     font-size: 50px;
     font-family: cursive;
-    color: teal;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    color: #86b7fe;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     text-shadow: 1px 1px black;
     margin-left: auto;
     margin-right: auto;
@@ -74,8 +74,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0.2, 0);
 }
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
@@ -189,9 +190,10 @@ input[type=submit]:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #bacbe6;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
 }
+

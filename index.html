@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <title>My Home Page</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -15,121 +15,163 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-            <nav class="navbar navbar-expand-md
+        <nav class="navbar navbar-expand-md
                     justify-content-start
                     bg-dark navbar-dark
                     col-12">
 
-                <!-- Logo -->
-                <a class="navbar-brand" href="index.html"><img src="images/Logo.png" class="rounded-circle" alt="Logo" height="70" width="70"> Little Things About Me </a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <!-- Links -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                My Peace
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="anime.html">Anime</a>
-                                <a class="dropdown-item" href="games.html">Games</a>
-                                <a class="dropdown-item" href="music and Art.html">Music & Art</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"><img src="images/Logo.png" class="rounded-circle" alt="Logo" height="50" width="50"> Little Things About Me </a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Peace
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="anime.html">Anime</a>
+                            <a class="dropdown-item" href="games.html">Games</a>
+                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="art.html">Art</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <br>
+
+</div>
+<br>
+<div id="content">
+    <div id="textblock">
+        <h2>A Little About Me</h2>
+
+        <p>
+            My name is Nurjahan Jhorna. Nur meaning light and jahan meaning world, together it means light of the world and Jhorna means waterfall.
+            I am currently a sophomore college student at New Jersey Institute of Technology, and I am majoring in Web & Information Systems.
+            This is my first website and I had a lot of fun and frustrations making it but in the end it was worth it.
+            I wanted to make a personal website that contained everything that helps me with anxiety. I wanted to make this website as a recommendation
+            for people who struggle with anxiety same as me and hope that everything helps me helps them a little bit.
 
 
-    <div id="content">
+        </p>
 
-        <div id="textblock">
-            <h2>A Little About Me</h2>
-
-            <p>
-                Royal Aura club and restaurant is located in Mayfair just a walk away from the Ritz.
-                We will guarantee you will have a ball of a time with our brilliant DJ playing the tunes while your sipping cocktails away and dancing the night away.
-            <p>
-                Aura is a glamorous and sophisticated club that has a beautiful decor to get the mood. If you fancy doing VIP in style drop us an e-mail, we will be glad to help. Not to mention our fabulous food dishes we serve are to die for.
-                Please make sure you e-mail us 24 hours before the day you want to come and party or dine.
-            </p>
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                </div>
-
-
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/one-piece.webp" alt="Anime" class="d-block w-100px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/zelda-breath-of-the-wild.jpg" alt="Games" class="d-block w-60px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/sky-childen-of-light.webp" alt="Music & Art" class="d-block w-100 px">
-                    </div>
-                </div>
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-            <br>
-            <div class="column">
-                <div class="card" style="width: 20rem;">
-                    <img src="images/" >
-                    <div class="container" class="card-img-top" alt="First Pic">
-                        <div class="card-body">
-                            <h5 class="card-title">Anime</h5>
-                        <a href="https://nurjahanj.github.io/IS117Project-Final/anime.html"
-                          class="btn btn-primary">Go</a>
-                    </div>
-                </div>
+        <!-- Carousel Start -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
             </div>
 
-            <!-- Cards -->
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide1.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide2.png" class="d-block w-60">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slide3.png" class="d-block w-100">
+                </div>
+>
+                <div class="carousel-item">
+                    <img src="images/slide4.png" class="d-block w-100">
+                </div>
 
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+<br>
+<!-- Cards -->
+        <div class="column">
+            <div class="card">
+                <img src="images/home-card-1.jpg">
+                <div class="container">
+                    <h4 class="card-title">Interesting And Fun Facts About Anime</h4>
+                    <a href="https://15facts.com/15-awesome-facts-about-anime/"
+                       target="_blank"
+                       class="btn btn-primary">Go</a>
+                </div>
+            </div>
         </div>
 
-        <!-- Cards -->
-
-
-
-
-
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Nurjahan Jhorna, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        <div class="column">
+            <div class="card">
+                <img src="images/home-card2-game.jpg">
+                <div class="container">
+                    <h4 class="card-title">Little History And Bizarre Facts About Games</h4>
+                    <a href="https://www.scified.com/news/fun-facts-about-video-games"
+                       target="_blank"
+                       class="btn btn-primary">Go</a>
+                </div>
+            </div>
         </div>
-     </div>
-  </footer>
+        <div class="column">
+            <div class="card">
+                <img src="images/home-card-4.jpg">
+                <div class="container">
+                    <h4 class="card-title">Learn How Music Helps With Anxiety </h4>
+                    <a href="https://www.ascap.com/help/wellness/7-ways-music-reduces-stress-anxiety"
+                       target="_blank"
+                       class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="images/home-card-3.png">
+                <div class="container">
+                    <h4 class="card-title">Tens Of Thousands Of Different Styles of Art</h4>
+                    <a href="https://unsplash.com/s/photos/art"
+                       target="_blank"
+                       class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 </div>
 
 
-    <!-- Javascript Bundle with Popper -->
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Nurjahan Jhorna, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
